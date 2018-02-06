@@ -337,5 +337,5 @@ var attribution = document.getElementsByClassName('ol-attribution')[0];
 var attributionList = attribution.getElementsByTagName('ul')[0];
 var firstLayerAttribution = attributionList.getElementsByTagName('li')[0];
 var qgis2webAttribution = document.createElement('li');
-qgis2webAttribution.innerHTML = '<a href="https://github.com/tomchadwin/qgis2web">qgis2web</a>';
+qgis2webAttribution.innerHTML = 'Mapa generado por el grupo de investigación/acción <a href="https://mapcolabora.org"> Mapeado Colaborativo</a> con datos del <a href="http://www.zaragoza.es/sede/servicio/catalogo/16#JSON">Ayuntamiento de Zaragoza</a> y <a href="http://osm.org">OpenStreetMap</a> | ';
 attributionList.insertBefore(qgis2webAttribution, firstLayerAttribution);
